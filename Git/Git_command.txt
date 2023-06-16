@@ -1,0 +1,21 @@
+-- Clone the repo to your machine
+git clone <url du repo>
+
+-- Create a new branch named my_awesome_feature
+git checkout my_awesome_feature
+
+-- Add your code to that branch
+git add .
+
+-- Commit 
+git commit -m "First commit"
+
+-- Push the new branch to its origin/remote 
+git push origin my_awesome_feature
+
+-- Merge the new branch locally on your machine to master
+git checkout master
+git merge my_awesome_feature
+
+-- Push the new master changes to origin/remote
+git push origin master
