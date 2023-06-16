@@ -240,7 +240,7 @@ def sort_transactions(transactions, sort_by='amount'):
     #     print('wrong sort_by parameter')
 
 
-############# For Testing Purposes Only #############
+############# For Testing Purpose Only #############
 if __name__ == '__main__':
     # Test Games
     games = Game.read_games_from_file()
